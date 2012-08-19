@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E2D079A1-E6F2-E2A3-859A-C548A98A5F0E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_4;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\InGame\Enemy\Enemy.js" />
+     <Compile Include="Assets\Scripts\InGame\Enemy\EnemySpawner.js" />
+     <Compile Include="Assets\Scripts\InGame\Enemy\EnemyWaves.js" />
+     <Compile Include="Assets\Scripts\InGame\Enemy\RewardOnDestroy.js" />
+     <Compile Include="Assets\Scripts\InGame\Enemy\WaveMonitor.js" />
+     <Compile Include="Assets\Scripts\InGame\Enemy\WaypointTraveler.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\GameManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\GameMenuManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\HUDManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\InputManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\MenuManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\PlaceTowerManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\RightHUDManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Managers\TowerSelectManager.js" />
+     <Compile Include="Assets\Scripts\InGame\Tower\Damager.js" />
+     <Compile Include="Assets\Scripts\InGame\Tower\Tower.js" />
+     <Compile Include="Assets\Scripts\Menu\MainMenuManager.js" />
+     <None Include="Assets\bin-utils\zeroarray-out.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
