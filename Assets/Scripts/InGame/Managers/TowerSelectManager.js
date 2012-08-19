@@ -67,6 +67,11 @@ function OnGUI() {
 			txt += "\nNot enough money; You cannot buy this!";
 			cannotBuyTowers[i] = 1;
 		}
+		else {
+			// set it to zero b/c if it wasn't available before,
+			// then make it available now.
+			cannotBuyTowers[i] = 0;	
+		}
 		guiContents[i] = GUIContent(txt, towerTextures[i]);
 	}
 
@@ -91,4 +96,5 @@ function OnGUI() {
 
 function EnableTowerMenu() {
 	this.enabled = true;
+	selTower = 0;
 }

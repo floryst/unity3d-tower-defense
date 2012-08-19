@@ -123,7 +123,9 @@ function ChosePos(pos : int) {
 		}
 	
 		// We got our position!
-		Instantiate(towerToPlace, posVector, Quaternion.identity);
+		// We are subtracting the Vector3 from posVector b/c the
+		// tower layer is layer 2, not layer 6.
+		Instantiate(towerToPlace, posVector - Vector3(0, 4, 0), Quaternion.identity);
 		
 		// Run cleanup.
 		CleanUp();

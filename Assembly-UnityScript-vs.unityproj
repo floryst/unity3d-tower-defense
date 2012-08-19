@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E2D079A1-E6F2-E2A3-859A-C548A98A5F0E}</ProjectGuid>
+	<ProjectGuid>{605D1607-4F1B-3B9D-BF96-FF4B7B22A7E5}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -54,7 +54,6 @@
      <Compile Include="Assets\Scripts\InGame\Managers\GameMenuManager.js" />
      <Compile Include="Assets\Scripts\InGame\Managers\HUDManager.js" />
      <Compile Include="Assets\Scripts\InGame\Managers\InputManager.js" />
-     <Compile Include="Assets\Scripts\InGame\Managers\MenuManager.js" />
      <Compile Include="Assets\Scripts\InGame\Managers\PlaceTowerManager.js" />
      <Compile Include="Assets\Scripts\InGame\Managers\RightHUDManager.js" />
      <Compile Include="Assets\Scripts\InGame\Managers\TowerSelectManager.js" />

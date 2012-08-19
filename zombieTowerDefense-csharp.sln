@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{A64EB1F7-F736-CD69-6F8E-D319B04551E0}") = "pacmanDefense", "Assembly-CSharp-Editor-vs.csproj", "{1E1014C3-88BA-FBF2-BF89-7BD6028F0959}"
+Project("{6C0E8A6B-CD25-273E-70E2-FD7EE7999A1A}") = "zombieTowerDefense", "Assembly-CSharp-Editor-vs.csproj", "{24E81DAD-5EBE-79E7-66DF-DB2651E4DD58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E1014C3-88BA-FBF2-BF89-7BD6028F0959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E1014C3-88BA-FBF2-BF89-7BD6028F0959}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E1014C3-88BA-FBF2-BF89-7BD6028F0959}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E1014C3-88BA-FBF2-BF89-7BD6028F0959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E81DAD-5EBE-79E7-66DF-DB2651E4DD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E81DAD-5EBE-79E7-66DF-DB2651E4DD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E81DAD-5EBE-79E7-66DF-DB2651E4DD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E81DAD-5EBE-79E7-66DF-DB2651E4DD58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

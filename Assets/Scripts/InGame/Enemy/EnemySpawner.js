@@ -39,6 +39,8 @@ function Spawn() {
 }
 
 function StartWave() {
+	// Set the timescale to 1.
+	Time.timeScale = 1;
 	// offset = 0
 	enemyOffset = 0;
 	// 1.0 sec delay for the effect.

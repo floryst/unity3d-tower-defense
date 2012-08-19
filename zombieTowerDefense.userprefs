@@ -1,17 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InGame\Managers\PlaceTowerManager.js">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets\Scripts\InGame\Managers\PlaceTowerManager.js" Line="52" Column="15" />
-      <File FileName="Assets\Scripts\InGame\Managers\HUDManager.js" Line="15" Column="19" />
-      <File FileName="Assets\Scripts\InGame\Managers\TowerSelectManager.js" Line="46" Column="38" />
-      <File FileName="Assets\Scripts\InGame\Enemy\EnemySpawner.js" Line="12" Column="19" />
-      <File FileName="Assets\Scripts\InGame\Enemy\EnemyWaves.js" Line="24" Column="1" />
-      <File FileName="Assets\Scripts\InGame\Tower\Tower.js" Line="4" Column="6" />
-      <File FileName="Assets\Scripts\InGame\Managers\GameManager.js" Line="55" Column="58" />
-      <File FileName="Assets\Scripts\Menu\MainMenuManager.js" Line="23" Column="18" />
-      <File FileName="Assets\Scripts\InGame\Managers\GameMenuManager.js" Line="28" Column="24" />
-      <File FileName="Assets\Scripts\InGame\Managers\RightHUDManager.js" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\InGame\Managers\PlaceTowerManager.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
